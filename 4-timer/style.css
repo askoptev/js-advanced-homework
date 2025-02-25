@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+}
+
+:root {
+  --gray-dark: #1e1f29;
+  --white: #fafafa;
+  --gray: #afb2bf;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--gray-dark);
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: var(--white);
+  font-size: 24px;
+}
+
+.timer {
+  display: flex;
+  gap: 20px;
+}
+
+.timer__slots {
+  color: var(--gray);
+}
