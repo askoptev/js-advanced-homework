@@ -1,0 +1,17 @@
+{
+  "name": "15-build",
+  "version": "1.0.0",
+  "description": "homework",
+  "main": "bundle.js",
+  "scripts": {
+    "build": "rollup index.js --file bundle.js --format iife",
+    "start": "live-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "koptev_as",
+  "license": "ISC",
+  "dependencies": {
+    "live-server": "^1.2.0",
+    "rollup": "^4.40.0"
+  }
+}
